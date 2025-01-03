@@ -1,6 +1,6 @@
 # Personal Portfolio  
 
-A clean and minimalist personal portfolio website built using *HTML, **CSS, and **JavaScript*, designed to showcase my skills, experience, and projects.  
+A clean and minimalist personal portfolio website built using HTML, CSS, and JavaScript, designed to showcase my skills, experience, and projects.  
 
 ## Features  
 - Minimalist Design: Black and yellow theme for a modern and elegant look.  
