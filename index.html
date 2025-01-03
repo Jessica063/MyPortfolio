@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jessica Personal Portfolio</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile.jpg" alt="jess" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="jess">Jessica Dsouza</h1>
+
+          <p class="title">Computer Science Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:dsouzajessica64@gmail.com" class="contact-link">dsouzajessica64@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:9632869070" class="contact-link">+91 9632869070</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">March 06, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Moodbidri, Mangalore , India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href=" https://www.linkedin.com/in/jessica-dsouza-jd/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="https://github.com/Jessica063" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://discord.com/users/yourdiscordid" class="social-link">
+              <ion-icon name="logo-discord"></ion-icon>
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="https://twitter.com/yourusername" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+        </ul>
+        
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a passionate software developer currently pursuing a degree in Computer Science and Engineering at St. Joseph Engineering College, Mangalore. 
+            With a strong foundation in software development and a keen interest in web development, 
+            I enjoy transforming ideas into innovative digital solutions.
+          </p>
+
+          <p>
+  
+            My strengths include problem-solving, a commitment to meeting deadlines, and the ability to take on responsibility, even when it means learning from the ground up to deliver quality results. 
+            I am proficient in a variety of programming languages and technologies, including Python, MySQL, Web Development and design tools like Figma. Currently, 
+            I am expanding my skills in UI/UX design and exploring emerging trends in web development to create innovative, responsive designs that prioritize user experience.
+            I thrive in environments that challenge me and foster growth, always seeking opportunities to leverage my skills and make a meaningful impact.
+            
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="School-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">St. Joseph Engineering College, Mangalore</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                B.E. in Computer Science and Engineering: Currently pursuing with a CGPA of 9.6
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Christ King PU College, Karkala</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                Pre-University: Completed with a major in PCMB, achieving 99.5%.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Blossom English Medium School, Belvai</h4>
+
+              <span>2019</span>
+
+              <p class="timeline-text">
+                10th Grade: Achieved an outstanding score of 95.36%.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web development Intern - MotionCut</h4>
+
+              <span>October - November 2023</span>
+
+              <p class="timeline-text">
+                TO-DO LIST : Developed a webpage named TODO list, which keep track of progress and helps in schedule management.<br>
+            
+                PETAL PARADISE-WEBSITE : Developed a simple and user-friendly frontend website for a bouquet shop.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+            <h3 class="h3 skills-title">My Skills</h3>
+          </div>
+        
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <h5 class="h5">Web Development, UI/UX</h5>
+            </li>
+            <li class="skills-item">
+              <h5 class="h5">Python, C, Java</h5>
+            </li>
+            <li class="skills-item">
+              <h5 class="h5">MySQL, React, Node.js</h5>
+            </li>
+            <li class="skills-item">
+              <h5 class="h5">Figma, Canva, GitHub</h5>
+            </li>
+          </ul>
+        </section>
+        
+
+        <!--
+        - #Certifications
+      -->
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="medal-outline"></ion-icon>
+          </div>
+      
+          <h3 class="h3">Certifications</h3>
+        </div>
+      
+        <ol class="timeline-list">
+      
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Python for Data Science, AI & Development</h4>
+          </li>
+      
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">TechA Testing Fundamentals Certification</h4>
+          </li>
+      
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Intermediate Relational Database & SQL</h4>
+          </li>
+      
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Basics of Python</h4>
+          </li>
+      
+        </ol>
+      
+      </section>
+      
+      <a href="./assets/JessicaDsouza_resume.pdf" download="Jessica_Resume" class="resume-button">
+        Want to know more? Click here to access my complete resume!
+      </a>
+      
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Art-site WordPress</h3>
+
+                <p class="project-category">A dynamic WordPress site focused on showcasing digital artwork and portfolios.</p>
+                
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Farm management</h3>
+
+                <p class="project-category">A comprehensive platform designed for managing farm operations and inventory.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/Jessica063/todo-list">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project3.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">To-do-list</h3>
+
+                <p class="project-category">A minimalist design for a task management tool with an intuitive interface.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/Jessica063/Business-site">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project4.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Business site</h3>
+
+                <p class="project-category">A fully functional business website for showcasing services and products.</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9520361378472!2d74.89610237360871!3d12.910804316211236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba359dfac132663%3A0xa7bf228838232d32!2sSt%20Joseph%20Engineering%20College!5e0!3m2!1sen!2sin!4v1735816919102!5m2!1sen!2sin"
+             width="600" height="450" style="border:0;"
+             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
